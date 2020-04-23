@@ -1,0 +1,63 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms validations</title>
+</head>
+
+<body>
+    <h1>Push-dev form</h1>
+    <form action="">
+        <label for="first_name">
+            First name: <input type="text" id="first_name" name="first_name" required>
+        </label>
+        <label for="last_name">
+            Last name: <input type="text" id="last_name" name="last_name" required>
+        </label>
+        <label for="email">
+            Email: <input type="email" id="email" name="email" required>
+        </label>
+        <label for="date">
+            Birthdate: <input type="date" id="date" name="date" required>
+        </label>
+        <fieldset>
+            <legend>Choose your gender:</legend>
+            <select id="gender">
+                <option value="female">Female</option>
+                <option value="male">Male</option>
+                <option value="other">Other</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Choose your socioeconomic status:</legend>
+            <label for="high">
+                High: <input type="radio" name="high" id="high">
+            </label>
+            <label for="medium">
+                Medium: <input type="radio" name="medium" id="medium">
+            </label>
+            <label for="low">
+                Low: <input type="radio" name="low" id="low">
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Check the hobbies you like</legend>
+            <label for="soccer">
+                Soccer: <input type="checkbox" name="soccer" id="soccer">
+            </label>
+            <label for="basketball">
+                Basketball: <input type="checkbox" name="basketball" id="basketball">
+            </label>
+            <label for="tennis">
+                Tennis: <input type="checkbox" name="tennis" id="tennis">
+            </label>
+        </fieldset>
+        <label for="image">
+            <input type="file" id="file" accept="image/*" placeholder="Choose a image." name="image" required>
+        </label>
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>
