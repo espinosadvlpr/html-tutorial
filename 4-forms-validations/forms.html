@@ -23,11 +23,14 @@
         </label>
         <fieldset>
             <legend>Choose your gender:</legend>
+            <label for="gender"> 
+                Gender
             <select id="gender">
                 <option value="female">Female</option>
                 <option value="male">Male</option>
                 <option value="other">Other</option>
             </select>
+        </label>
         </fieldset>
         <fieldset>
             <legend>Choose your socioeconomic status:</legend>
@@ -53,8 +56,8 @@
                 Tennis: <input type="checkbox" name="tennis" id="tennis">
             </label>
         </fieldset>
-        <label for="image">
-            <input type="file" id="file" accept="image/*" placeholder="Choose a image." name="image" required>
+        <label for="file">
+            <input type="file" id="file" accept="image/*" placeholder="Choose an image." name="image" required>
         </label>
         <button>Submit</button>
     </form>
