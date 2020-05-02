@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -13,12 +14,14 @@
             <div>
                 <label for="name">
             Your name (required):</label>
-                <input type="text" name="name" id="name" required>
+                <input type="text" name="name" id="name" aria-required="true">
+                <abbr title="required">*</abbr>
             </div>
             <div>
                 <label for="email">
             Email address (required):</label>
-                <input type="email" name="email" id="email" required>
+                <input type="email" name="email" id="email" aria-required="true">
+                <abbr title="required">*</abbr>
             </div>
             <div>
                 <label for="number">
@@ -29,16 +32,19 @@
         <fieldset>
             <legend>Please select the courses that you are interested in (required):</legend>
             <div>
-                <input type="checkbox" name="web" id="web">
+                <input type="checkbox" name="web" id="web" aria-required="true">
                 <label for="web">Web Developer</label>
+                <abbr title="required">*</abbr>
             </div>
             <div>
-                <input type="checkbox" name="react" id="react">
+                <input type="checkbox" name="react" id="react" aria-required="true">
                 <label for="react">React Developer</label>
+                <abbr title="required">*</abbr>
             </div>
             <div>
-                <input type="checkbox" name="fullstack" id="fullstack">
+                <input type="checkbox" name="fullstack" id="fullstack" aria-required="true">
                 <label for="fullstack">Fullstack Developer</label>
+                <abbr title="required">*</abbr>
             </div>
             <div>
                 <input type="checkbox" name="other" id="other">
