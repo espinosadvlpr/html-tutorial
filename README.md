@@ -9,6 +9,7 @@ What is HTML and why it's important to write semantic HTML, how to use tags, fol
 * [Forms and validations](4-forms-validations)
 * [Accessibility](5-Accessibility)
 * [SEO basics](6-seo-basics)
+* [Form exercise](form.html)
 * TODO@you: Code an HTML form with semantic tags, accessibility and SEO best practices:
   1. Create a new branch named `feature/html-form`
   2. Inside the root of git repo, create `form.html`.
