@@ -9,4 +9,6 @@ What is HTML and why it's important to write semantic HTML, how to use tags, fol
 * [Forms and validations](4-forms-validations)
 * [Accessibility](5-Accessibility)
 * [SEO basics](6-seo-basics)
-* [Form exercise page](https://espinosadvlpr.github.io/html-tutorial/form.html)
+
+## Exercise:
+* [Form page](https://espinosadvlpr.github.io/html-tutorial/form.html)
