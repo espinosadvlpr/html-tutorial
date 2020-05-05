@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="registration form">
+    <meta name="keywords" content="html, web, form, dev">
+    <meta name="author" content="David Espinosa">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form exercise</title>
+</head>
+
+<body>
+    <header>
+        <!--Header content-->
+        <nav>
+            <!--Nav content-->
+        </nav>
+    </header>
+    <main>
+        <article>
+            <header>
+                <h1>Push-dev form exercise</h1>
+            </header>
+            <section>
+                <form>
+                    <fieldset>
+                        <legend>Please enter your contact details</legend>
+                        <div>
+                            <label for="name">
+                        Your name (required):</label>
+                            <input type="text" name="name" id="name" aria-required="true">
+                            <abbr title="required">*</abbr>
+                        </div>
+                        <div>
+                            <label for="email">
+                        Email address (required):</label>
+                            <input type="email" name="email" id="email" aria-required="true">
+                            <abbr title="required">*</abbr>
+                        </div>
+                        <div>
+                            <label for="number">
+                        Phone number (+57): (optional):</label>
+                            <input type="number" name="number" id="number">
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Please select the courses that you are interested in (required):</legend>
+                        <div>
+                            <input type="checkbox" name="web" id="web">
+                            <label for="web">Web Developer</label>
+                            <abbr title="required">*</abbr>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="react" id="react">
+                            <label for="react">React Developer</label>
+                            <abbr title="required">*</abbr>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="fullstack" id="fullstack">
+                            <label for="fullstack">Fullstack Developer</label>
+                            <abbr title="required">*</abbr>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="other" id="other">
+                            <label for="other">Other</label>
+                        </div>
+                    </fieldset>
+                    <div>
+                        <label for="message">Please enter a message (optional):</label>
+                        <textarea name="message" id="message"></textarea>
+                    </div>
+                    <button>Send message</button>
+                    <button type="reset">Reset form</button>
+                </form>
+            </section>
+            <footer>
+                <p>Call me: (+57) 321-203-9482</p>
+                <p>E-mail: espinosadavid47@gmail.com</p>
+            </footer>
+        </article>
+    </main>
+    <aside>
+        <!--Aside content-->
+    </aside>
+    <footer>
+        <!--Footer content-->
+        <nav>
+            <!--Nav content-->
+        </nav>
+    </footer>
+</body>
+
+</html>
