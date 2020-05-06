@@ -1,0 +1,38 @@
+article {
+    font-size: 20px;
+    font-family: monospace;
+}
+
+button {
+    background-color: white;
+    border-radius: 5px;
+    color: gray;
+}
+
+button:hover {
+    background-color: gray;
+    color: white;
+}
+
+form {
+    background-color: #D2FEE8;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+header,
+footer {
+    background-color: #FEEAD4;
+}
+
+footer {
+    background: #B5C5E8 no-repeat right top;
+    ;
+}
+
+section {
+    background-image: url('https://avante.biz/wp-content/uploads/Dark-Light-Wallpapers/Dark-Light-Wallpapers-005.jpg');
+    background-size: cover;
+}
